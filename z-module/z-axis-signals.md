@@ -96,3 +96,14 @@ between those is Rl (Load)
 BU = GND
 
 
+
+
+# Relais
+
+LED out
+Pulse Out
+Vac Out
+Vac In
+
+
+
