@@ -1,4 +1,4 @@
-# Input Signal Connectors
+e# Input Signal Connectors
 
 ## Stepper Z
 
@@ -17,15 +17,16 @@ Gnd
 ## Supply
 
 24V
-5V
-Gnd
-
+GND
 
 ## Grip/Sense
 
-Light
-Vac
+
+VacGoc
+VacEject
 VacSense
+
+Light
 Gnd
 5V
 
@@ -71,10 +72,24 @@ BU = GND
 
 
 
-4
-4
 3
+31
+
+2
 6
+
+2
+3
+4
+4
+5
+
+
+4pcs with 4
+2pcs with 3
+1pcs with 2
+1pcs with 5
+1pcs with 6
 
 
 http://www.reichelt.de/Wannenstecker/AKL-182-04/3/index.html?&ACTION=3&LA=2&ARTICLE=36645&GROUPID=6897&artnr=AKL+182-04
