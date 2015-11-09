@@ -2,19 +2,28 @@
 
 *.bak
 
-# OS X
+## OS X
 .DS_Store
 ._.DS_Store
 ._*
 
-# Lnx
+## Lnx
 *~
 
-# PYTHON
+## PYTHON
 *.pyc
 
-# TMP
+## TMP
 tmp/**
 
 ## Python virtualenv
 venv/**
+
+
+## KiCAD
+*.bak
+*.kicad_pcb-bak
+*.bck
+/hardware/_autosave-*
+*.*~
+_saved_*
