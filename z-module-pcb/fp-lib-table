@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name z-module-pcb)(type KiCad)(uri "$(KIPRJMOD)/libs/z-module-pcb.pretty")(options "")(descr ""))
+)
