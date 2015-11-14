@@ -27,3 +27,4 @@ venv/**
 /hardware/_autosave-*
 *.*~
 _saved_*
+/z-module-pcb/_autosave-z-module-pcb.kicad_pcb
