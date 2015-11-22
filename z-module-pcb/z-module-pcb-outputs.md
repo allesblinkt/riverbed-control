@@ -1,0 +1,74 @@
+Relay LED
+
+LED_A
+LED_B
+
+
+Vacuum
+
+GND
+24V
+EJECT
+VACUUM
+SENSE
+
+
+Limit switches
+
+GNDD
+LIMIT_A
+3.3V
+GNDD
+LIMIT_Z
+
+
+Motor Z
+
+Z_M2B
+Z_M2A
+Z_M1B
+Z_M1A
+
+
+
+
+
+Control signals
+
+LED
+VAC_EJECT
+VAC_VACUUM
+VAC_SENSE
+GNDD
+3.3V
+
+
+Power supply
+GND
+24V
+
+
+Axis Z
+STEP
+DIR
+LIMIT
+
+
+Axis A
+STEP
+DIR
+LIMIT
+
+
+Motor A 
+
+Z_M2B
+Z_M2A
+Z_M1B
+Z_M1A
+
+
+
+
+
+
