@@ -1,0 +1,737 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:z-module-pcb-r2
+LIBS:stm32
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:Altera
+LIBS:analog_devices
+LIBS:bbd
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:maxim
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:Zilog
+LIBS:z-module-pcb-r2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SilentStepStick U8
+U 1 1 570D28C3
+P 4600 3100
+AR Path="/570E25C7/570D28C3" Ref="U8"  Part="1" 
+AR Path="/570E376A/570D28C3" Ref="U9"  Part="1" 
+F 0 "U9" H 4600 3823 60  0000 C CNN
+F 1 "SilentStepStick" H 4600 3727 47  0000 C CNN
+F 2 "z-module-pcb-r2:SilentStepStick" H 4600 3630 60  0001 C CNN
+F 3 "" H 4600 2700 60  0000 C CNN
+	1    4600 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP1_Small C9
+U 1 1 570D28CE
+P 8700 5100
+AR Path="/570E25C7/570D28CE" Ref="C9"  Part="1" 
+AR Path="/570E376A/570D28CE" Ref="C10"  Part="1" 
+F 0 "C10" H 8791 5146 50  0000 L CNN
+F 1 "10u" H 8791 5054 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 8700 5100 4   0000 C CNN
+F 3 "" H 8700 5100 50  0000 C CNN
+	1    8700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR080
+U 1 1 570D28CF
+P 5200 2850
+AR Path="/570E25C7/570D28CF" Ref="#PWR080"  Part="1" 
+AR Path="/570E376A/570D28CF" Ref="#PWR0100"  Part="1" 
+F 0 "#PWR0100" H 5200 2600 50  0001 C CNN
+F 1 "GND" V 5208 2722 50  0000 R CNN
+F 2 "" H 5200 2850 50  0000 C CNN
+F 3 "" H 5200 2850 50  0000 C CNN
+	1    5200 2850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5100 2850 5200 2850
+Wire Wire Line
+	5100 2750 5200 2750
+$Comp
+L GND #PWR082
+U 1 1 570D28D1
+P 5200 3550
+AR Path="/570E25C7/570D28D1" Ref="#PWR082"  Part="1" 
+AR Path="/570E376A/570D28D1" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 5200 3300 50  0001 C CNN
+F 1 "GND" H 5208 3376 50  0000 C CNN
+F 2 "" H 5200 3550 50  0000 C CNN
+F 3 "" H 5200 3550 50  0000 C CNN
+	1    5200 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3450 5200 3450
+Wire Wire Line
+	5100 3350 5200 3350
+Wire Wire Line
+	8700 4950 8700 5000
+$Comp
+L GND #PWR091
+U 1 1 570D28D4
+P 8700 5250
+AR Path="/570E25C7/570D28D4" Ref="#PWR091"  Part="1" 
+AR Path="/570E376A/570D28D4" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 8700 5000 50  0001 C CNN
+F 1 "GND" H 8708 5076 50  0000 C CNN
+F 2 "" H 8700 5250 50  0000 C CNN
+F 3 "" H 8700 5250 50  0000 C CNN
+	1    8700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 5200 8700 5250
+$Comp
+L D_Schottky_Small D34
+U 1 1 570D28D5
+P 5900 5250
+AR Path="/570E25C7/570D28D5" Ref="D34"  Part="1" 
+AR Path="/570E376A/570D28D5" Ref="D42"  Part="1" 
+F 0 "D42" V 5846 5318 50  0000 L CNN
+F 1 "Schot" V 5938 5318 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA" V 5992 5318 4   0000 L CNN
+F 3 "" V 5900 5250 50  0000 C CNN
+	1    5900 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 5050 5900 5150
+$Comp
+L D_Schottky_Small D30
+U 1 1 570D28D6
+P 5900 4950
+AR Path="/570E25C7/570D28D6" Ref="D30"  Part="1" 
+AR Path="/570E376A/570D28D6" Ref="D38"  Part="1" 
+F 0 "D38" V 5846 5018 50  0000 L CNN
+F 1 "Schot" V 5938 5018 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA" V 5992 5018 10  0000 L CNN
+F 3 "" V 5900 4950 50  0000 C CNN
+	1    5900 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR095
+U 1 1 570D28D7
+P 5900 5400
+AR Path="/570E25C7/570D28D7" Ref="#PWR095"  Part="1" 
+AR Path="/570E376A/570D28D7" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 5900 5150 50  0001 C CNN
+F 1 "GND" H 5908 5226 50  0000 C CNN
+F 2 "" H 5900 5400 50  0000 C CNN
+F 3 "" H 5900 5400 50  0000 C CNN
+	1    5900 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5350 5900 5400
+Wire Wire Line
+	5900 4800 5900 4850
+Wire Wire Line
+	5100 3250 5600 3250
+Wire Wire Line
+	5600 3150 5100 3150
+Wire Wire Line
+	5100 3050 5600 3050
+Wire Wire Line
+	5100 2950 5600 2950
+Text Label 5850 5100 2    47   ~ 0
+M1_M1B
+Wire Wire Line
+	5200 3450 5200 3550
+Wire Wire Line
+	5200 2750 5200 2650
+Wire Wire Line
+	5900 5100 5850 5100
+Connection ~ 5900 5100
+$Comp
+L D_Schottky_Small D35
+U 1 1 570D28DA
+P 6600 5250
+AR Path="/570E25C7/570D28DA" Ref="D35"  Part="1" 
+AR Path="/570E376A/570D28DA" Ref="D43"  Part="1" 
+F 0 "D43" V 6546 5318 50  0000 L CNN
+F 1 "Schot" V 6638 5318 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA" V 6692 5318 4   0000 L CNN
+F 3 "" V 6600 5250 50  0000 C CNN
+	1    6600 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 5050 6600 5150
+$Comp
+L D_Schottky_Small D31
+U 1 1 570D28DB
+P 6600 4950
+AR Path="/570E25C7/570D28DB" Ref="D31"  Part="1" 
+AR Path="/570E376A/570D28DB" Ref="D39"  Part="1" 
+F 0 "D39" V 6546 5018 50  0000 L CNN
+F 1 "Diodes_SMD:D_SMA" V 6638 5018 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA" V 6692 5018 4   0000 L CNN
+F 3 "" V 6600 4950 50  0000 C CNN
+	1    6600 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR096
+U 1 1 570D28DC
+P 6600 5400
+AR Path="/570E25C7/570D28DC" Ref="#PWR096"  Part="1" 
+AR Path="/570E376A/570D28DC" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 6600 5150 50  0001 C CNN
+F 1 "GND" H 6608 5226 50  0000 C CNN
+F 2 "" H 6600 5400 50  0000 C CNN
+F 3 "" H 6600 5400 50  0000 C CNN
+	1    6600 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5350 6600 5400
+Wire Wire Line
+	6600 4800 6600 4850
+Text Label 6550 5100 2    47   ~ 0
+M1_M1A
+Wire Wire Line
+	6600 5100 6550 5100
+Connection ~ 6600 5100
+$Comp
+L D_Schottky_Small D36
+U 1 1 570D28DE
+P 7250 5250
+AR Path="/570E25C7/570D28DE" Ref="D36"  Part="1" 
+AR Path="/570E376A/570D28DE" Ref="D44"  Part="1" 
+F 0 "D44" V 7196 5318 50  0000 L CNN
+F 1 "Schot" V 7288 5318 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA" V 7342 5318 4   0000 L CNN
+F 3 "" V 7250 5250 50  0000 C CNN
+	1    7250 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 5050 7250 5150
+$Comp
+L D_Schottky_Small D32
+U 1 1 570D28DF
+P 7250 4950
+AR Path="/570E25C7/570D28DF" Ref="D32"  Part="1" 
+AR Path="/570E376A/570D28DF" Ref="D40"  Part="1" 
+F 0 "D40" V 7196 5018 50  0000 L CNN
+F 1 "Schot" V 7288 5018 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA" V 7342 5018 4   0000 L CNN
+F 3 "" V 7250 4950 50  0000 C CNN
+	1    7250 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR097
+U 1 1 570D28E0
+P 7250 5400
+AR Path="/570E25C7/570D28E0" Ref="#PWR097"  Part="1" 
+AR Path="/570E376A/570D28E0" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 7250 5150 50  0001 C CNN
+F 1 "GND" H 7258 5226 50  0000 C CNN
+F 2 "" H 7250 5400 50  0000 C CNN
+F 3 "" H 7250 5400 50  0000 C CNN
+	1    7250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5350 7250 5400
+Wire Wire Line
+	7250 4800 7250 4850
+Text Label 7200 5100 2    47   ~ 0
+M1_M2A
+Wire Wire Line
+	7250 5100 7200 5100
+Connection ~ 7250 5100
+$Comp
+L D_Schottky_Small D37
+U 1 1 570D28E2
+P 7950 5250
+AR Path="/570E25C7/570D28E2" Ref="D37"  Part="1" 
+AR Path="/570E376A/570D28E2" Ref="D45"  Part="1" 
+F 0 "D45" V 7896 5318 50  0000 L CNN
+F 1 "Schot" V 7988 5318 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA" V 8042 5318 4   0000 L CNN
+F 3 "" V 7950 5250 50  0000 C CNN
+	1    7950 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 5050 7950 5150
+$Comp
+L D_Schottky_Small D33
+U 1 1 570D28E3
+P 7950 4950
+AR Path="/570E25C7/570D28E3" Ref="D33"  Part="1" 
+AR Path="/570E376A/570D28E3" Ref="D41"  Part="1" 
+F 0 "D41" V 7896 5018 50  0000 L CNN
+F 1 "Schot" V 7988 5018 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA" V 8042 5018 4   0000 L CNN
+F 3 "" V 7950 4950 50  0000 C CNN
+	1    7950 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR098
+U 1 1 570D28E4
+P 7950 5400
+AR Path="/570E25C7/570D28E4" Ref="#PWR098"  Part="1" 
+AR Path="/570E376A/570D28E4" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 7950 5150 50  0001 C CNN
+F 1 "GND" H 7958 5226 50  0000 C CNN
+F 2 "" H 7950 5400 50  0000 C CNN
+F 3 "" H 7950 5400 50  0000 C CNN
+	1    7950 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 5350 7950 5400
+Wire Wire Line
+	7950 4800 7950 4850
+Text Label 7900 5100 2    47   ~ 0
+M1_M2B
+Wire Wire Line
+	7950 5100 7900 5100
+Connection ~ 7950 5100
+$Comp
+L GND #PWR092
+U 1 1 570D2C52
+P 3700 5400
+AR Path="/570E25C7/570D2C52" Ref="#PWR092"  Part="1" 
+AR Path="/570E376A/570D2C52" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 3700 5150 50  0001 C CNN
+F 1 "GND" H 3708 5226 50  0000 C CNN
+F 2 "" H 3700 5400 50  0000 C CNN
+F 3 "" H 3700 5400 50  0000 C CNN
+	1    3700 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5300 3700 5400
+Wire Wire Line
+	3700 4700 3700 4800
+Text Label 4000 5050 2    47   ~ 0
+CFG1
+Text Label 4000 3050 2    47   ~ 0
+CFG3
+Wire Wire Line
+	4000 3050 4100 3050
+Text Label 4000 2950 2    47   ~ 0
+CFG2
+Wire Wire Line
+	4000 2950 4100 2950
+Text Label 4000 2850 2    47   ~ 0
+CFG1
+Wire Wire Line
+	4000 2850 4100 2850
+NoConn ~ 4100 3150
+NoConn ~ 4100 3250
+Text HLabel 3750 3350 0    47   Input ~ 0
+STEP
+Wire Wire Line
+	3750 3350 4100 3350
+Text HLabel 3750 3450 0    47   Input ~ 0
+DIR
+Wire Wire Line
+	3750 3450 4100 3450
+Text HLabel 3750 2750 0    47   Input ~ 0
+EN
+Wire Wire Line
+	3750 2750 4100 2750
+Text HLabel 5600 2950 2    47   Output ~ 0
+M_2B
+Text HLabel 5600 3050 2    47   Output ~ 0
+M_2A
+Text HLabel 5600 3150 2    47   Output ~ 0
+M_1A
+Text HLabel 5600 3250 2    47   Output ~ 0
+M_1B
+Wire Wire Line
+	3700 5050 4000 5050
+$Comp
+L R R42
+U 1 1 570E4AFF
+P 5350 3350
+AR Path="/570E25C7/570E4AFF" Ref="R42"  Part="1" 
+AR Path="/570E376A/570E4AFF" Ref="R43"  Part="1" 
+F 0 "R43" V 5450 3450 50  0000 C CNN
+F 1 "120R" V 5350 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5280 3350 4   0000 C CNN
+F 3 "" H 5350 3350 50  0000 C CNN
+	1    5350 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 3350 6050 3350
+Text Label 5100 3250 0    47   ~ 0
+M1_M1B
+Text Label 5100 3150 0    47   ~ 0
+M1_M1A
+Text Label 5100 3050 0    47   ~ 0
+M1_M2A
+Text Label 5100 2950 0    47   ~ 0
+M1_M2B
+Wire Wire Line
+	3700 5000 3700 5100
+Connection ~ 3700 5050
+$Comp
+L Jumper_NO_Small JP1
+U 1 1 571132DF
+P 3700 4900
+AR Path="/570E25C7/571132DF" Ref="JP1"  Part="1" 
+AR Path="/570E376A/571132DF" Ref="JP7"  Part="1" 
+F 0 "JP7" V 3646 4948 50  0000 L CNN
+F 1 "H" V 3737 4948 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 3791 4948 4   0000 L CNN
+F 3 "" H 3700 4900 50  0000 C CNN
+	1    3700 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP4
+U 1 1 571136E6
+P 3700 5200
+AR Path="/570E25C7/571136E6" Ref="JP4"  Part="1" 
+AR Path="/570E376A/571136E6" Ref="JP10"  Part="1" 
+F 0 "JP10" V 3646 5248 50  0000 L CNN
+F 1 "L" V 3737 5248 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 3791 5248 4   0000 L CNN
+F 3 "" H 3700 5200 50  0000 C CNN
+	1    3700 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR093
+U 1 1 57113A11
+P 4150 5400
+AR Path="/570E25C7/57113A11" Ref="#PWR093"  Part="1" 
+AR Path="/570E376A/57113A11" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 4150 5150 50  0001 C CNN
+F 1 "GND" H 4158 5226 50  0000 C CNN
+F 2 "" H 4150 5400 50  0000 C CNN
+F 3 "" H 4150 5400 50  0000 C CNN
+	1    4150 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5300 4150 5400
+Wire Wire Line
+	4150 4700 4150 4800
+Text Label 4450 5050 2    47   ~ 0
+CFG2
+Wire Wire Line
+	4150 5050 4450 5050
+Wire Wire Line
+	4150 5000 4150 5100
+Connection ~ 4150 5050
+$Comp
+L Jumper_NO_Small JP2
+U 1 1 57113A23
+P 4150 4900
+AR Path="/570E25C7/57113A23" Ref="JP2"  Part="1" 
+AR Path="/570E376A/57113A23" Ref="JP8"  Part="1" 
+F 0 "JP8" V 4096 4948 50  0000 L CNN
+F 1 "H" V 4187 4948 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 4241 4948 4   0000 L CNN
+F 3 "" H 4150 4900 50  0000 C CNN
+	1    4150 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP5
+U 1 1 57113A29
+P 4150 5200
+AR Path="/570E25C7/57113A29" Ref="JP5"  Part="1" 
+AR Path="/570E376A/57113A29" Ref="JP11"  Part="1" 
+F 0 "JP11" V 4096 5248 50  0000 L CNN
+F 1 "L" V 4187 5248 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 4241 5248 4   0000 L CNN
+F 3 "" H 4150 5200 50  0000 C CNN
+	1    4150 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR094
+U 1 1 57113A85
+P 4550 5400
+AR Path="/570E25C7/57113A85" Ref="#PWR094"  Part="1" 
+AR Path="/570E376A/57113A85" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 4550 5150 50  0001 C CNN
+F 1 "GND" H 4558 5226 50  0000 C CNN
+F 2 "" H 4550 5400 50  0000 C CNN
+F 3 "" H 4550 5400 50  0000 C CNN
+	1    4550 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5300 4550 5400
+Wire Wire Line
+	4550 4700 4550 4800
+Text Label 4850 5050 2    47   ~ 0
+CFG3
+Wire Wire Line
+	4550 5050 4850 5050
+Wire Wire Line
+	4550 5000 4550 5100
+Connection ~ 4550 5050
+$Comp
+L Jumper_NO_Small JP3
+U 1 1 57113A97
+P 4550 4900
+AR Path="/570E25C7/57113A97" Ref="JP3"  Part="1" 
+AR Path="/570E376A/57113A97" Ref="JP9"  Part="1" 
+F 0 "JP9" V 4496 4948 50  0000 L CNN
+F 1 "H" V 4587 4948 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 4641 4948 4   0000 L CNN
+F 3 "" H 4550 4900 50  0000 C CNN
+	1    4550 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP6
+U 1 1 57113A9D
+P 4550 5200
+AR Path="/570E25C7/57113A9D" Ref="JP6"  Part="1" 
+AR Path="/570E376A/57113A9D" Ref="JP12"  Part="1" 
+F 0 "JP12" V 4496 5248 50  0000 L CNN
+F 1 "L" V 4587 5248 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 4641 5248 4   0000 L CNN
+F 3 "" H 4550 5200 50  0000 C CNN
+	1    4550 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 571D1064
+P 5150 3350
+AR Path="/570E25C7/571D1064" Ref="#FLG04"  Part="1" 
+AR Path="/570E376A/571D1064" Ref="#FLG05"  Part="1" 
+F 0 "#FLG05" H 5150 3445 50  0001 C CNN
+F 1 "PWR_FLAG" H 5150 3574 50  0000 C CNN
+F 2 "" H 5150 3350 50  0000 C CNN
+F 3 "" H 5150 3350 50  0000 C CNN
+	1    5150 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 3350
+$Comp
+L +24V #PWR079
+U 1 1 598A1AE6
+P 5200 2650
+AR Path="/570E25C7/598A1AE6" Ref="#PWR079"  Part="1" 
+AR Path="/570E376A/598A1AE6" Ref="#PWR099"  Part="1" 
+F 0 "#PWR099" H 5200 2500 50  0001 C CNN
+F 1 "+24V" H 5215 2823 50  0000 C CNN
+F 2 "" H 5200 2650 50  0001 C CNN
+F 3 "" H 5200 2650 50  0001 C CNN
+	1    5200 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR086
+U 1 1 598A1BBF
+P 5900 4800
+AR Path="/570E25C7/598A1BBF" Ref="#PWR086"  Part="1" 
+AR Path="/570E376A/598A1BBF" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 5900 4650 50  0001 C CNN
+F 1 "+24V" H 5915 4973 50  0000 C CNN
+F 2 "" H 5900 4800 50  0001 C CNN
+F 3 "" H 5900 4800 50  0001 C CNN
+	1    5900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR087
+U 1 1 598A1C3B
+P 6600 4800
+AR Path="/570E25C7/598A1C3B" Ref="#PWR087"  Part="1" 
+AR Path="/570E376A/598A1C3B" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 6600 4650 50  0001 C CNN
+F 1 "+24V" H 6615 4973 50  0000 C CNN
+F 2 "" H 6600 4800 50  0001 C CNN
+F 3 "" H 6600 4800 50  0001 C CNN
+	1    6600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR088
+U 1 1 598A1C68
+P 7250 4800
+AR Path="/570E25C7/598A1C68" Ref="#PWR088"  Part="1" 
+AR Path="/570E376A/598A1C68" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 7250 4650 50  0001 C CNN
+F 1 "+24V" H 7265 4973 50  0000 C CNN
+F 2 "" H 7250 4800 50  0001 C CNN
+F 3 "" H 7250 4800 50  0001 C CNN
+	1    7250 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR089
+U 1 1 598A1C95
+P 7950 4800
+AR Path="/570E25C7/598A1C95" Ref="#PWR089"  Part="1" 
+AR Path="/570E376A/598A1C95" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 7950 4650 50  0001 C CNN
+F 1 "+24V" H 7965 4973 50  0000 C CNN
+F 2 "" H 7950 4800 50  0001 C CNN
+F 3 "" H 7950 4800 50  0001 C CNN
+	1    7950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR090
+U 1 1 598A1CC2
+P 8700 4950
+AR Path="/570E25C7/598A1CC2" Ref="#PWR090"  Part="1" 
+AR Path="/570E376A/598A1CC2" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 8700 4800 50  0001 C CNN
+F 1 "+24V" H 8715 5123 50  0000 C CNN
+F 2 "" H 8700 4950 50  0001 C CNN
+F 3 "" H 8700 4950 50  0001 C CNN
+	1    8700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR081
+U 1 1 598A1EB7
+P 6050 3250
+AR Path="/570E25C7/598A1EB7" Ref="#PWR081"  Part="1" 
+AR Path="/570E376A/598A1EB7" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 6050 3100 50  0001 C CNN
+F 1 "+5V" H 6065 3423 50  0000 C CNN
+F 2 "" H 6050 3250 50  0001 C CNN
+F 3 "" H 6050 3250 50  0001 C CNN
+	1    6050 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3350 6050 3250
+$Comp
+L +5V #PWR083
+U 1 1 598A1FE0
+P 3700 4700
+AR Path="/570E25C7/598A1FE0" Ref="#PWR083"  Part="1" 
+AR Path="/570E376A/598A1FE0" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 3700 4550 50  0001 C CNN
+F 1 "+5V" H 3715 4873 50  0000 C CNN
+F 2 "" H 3700 4700 50  0001 C CNN
+F 3 "" H 3700 4700 50  0001 C CNN
+	1    3700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR084
+U 1 1 598A2080
+P 4150 4700
+AR Path="/570E25C7/598A2080" Ref="#PWR084"  Part="1" 
+AR Path="/570E376A/598A2080" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 4150 4550 50  0001 C CNN
+F 1 "+5V" H 4165 4873 50  0000 C CNN
+F 2 "" H 4150 4700 50  0001 C CNN
+F 3 "" H 4150 4700 50  0001 C CNN
+	1    4150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR085
+U 1 1 598A20AD
+P 4550 4700
+AR Path="/570E25C7/598A20AD" Ref="#PWR085"  Part="1" 
+AR Path="/570E376A/598A20AD" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 4550 4550 50  0001 C CNN
+F 1 "+5V" H 4565 4873 50  0000 C CNN
+F 2 "" H 4550 4700 50  0001 C CNN
+F 3 "" H 4550 4700 50  0001 C CNN
+	1    4550 4700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
